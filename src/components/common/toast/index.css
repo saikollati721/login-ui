@@ -1,0 +1,13 @@
+@keyframes Toastify__trackProgress_override {
+0% {
+    transform: scaleX(0);
+}
+
+100% {
+    transform: scaleX(1);
+}
+}
+
+.Toastify__progress-bar--animated {
+animation: Toastify__trackProgress_override linear 1 forwards;
+}
